@@ -16,18 +16,29 @@ code {
 }
 
 .mainBox {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
-  height: 750px;
-  width: 90%;
+  height: 950px;
+  width: 95%;
   margin: auto;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  opacity: .7;
+  padding-top: 35px;
+  margin-top: 15px;
+
+
 }
 
 .cardTable {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
-  height: 90%;
+  height: 96%;
   width: 93%;
   margin: auto;
-  margin-top: 30px;
+  /* margin-top: 50px; */
+  /* margin: 20px; */
+  padding: 30px;
+  position: relative;
+  background: blanchedalmond;
+  opacity: .15;
 }
