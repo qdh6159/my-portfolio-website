@@ -1,0 +1,17 @@
+{
+    "projectName": "my-portfolio-website",
+    "version": "2.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "my-portfolio-website/my-portfolio-client/src",
+            "DistributionDir": "my-portfolio-website/my-portfolio-client/public",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script start"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}
