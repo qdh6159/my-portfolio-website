@@ -63,22 +63,27 @@ img{
   height: 350px;
   /* width: 200px;
   margin: 10px; */
-  opacity: .9;
+  opacity: .7;
 }
 /* .card-img {
 } */
 
-h3{
+#titles{
   font-family: 'Didact Gothic', sans-serif;
-  letter-spacing: 10px;
+  letter-spacing: 3px;
   margin-bottom: 0px;
     margin-right: 0px;
   /* font-size: 40px; */
   /* position: absolute; */
-  float: right;
+  /* float: right; */
   /* text-align: center; */
   /* top: 17px; left: 1100px; */
-
+  text-align: center;
+  font-size: 43px;
+  margin-top: 133px;
+  font-weight: 900;
+  color: white;
+  background-color: #12131478;
   /* margin-right: 50%; */
 }
 
@@ -108,4 +113,13 @@ li{
 
 button {
   text-align: center;
+}
+
+.view {
+  font-size: 28px;
+  font-weight: bolder;
+  /* color: white; */
+  /* text-shadow: brown;; */
+  height: 30px;
+  /* background-color: turquoise; */
 }
