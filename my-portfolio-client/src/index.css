@@ -18,7 +18,16 @@ code {
 .mainBox {
   border: 1px solid black;
 
-  height: 700px;
+  height: 750px;
   width: 90%;
   margin: auto;
+}
+
+.cardTable {
+  border: 1px solid black;
+
+  height: 90%;
+  width: 93%;
+  margin: auto;
+  margin-top: 30px;
 }
