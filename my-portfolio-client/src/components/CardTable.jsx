@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button } from 'reactstrap';
-
+import Cards from './Cards'
 
 function CardTable() {
     return (
       <div class="cardTable">
-        {/* <h1></h1> */}
+          <Cards />
       </div>
     );
   }

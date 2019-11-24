@@ -17,8 +17,11 @@ const MyNav = (props) => {
   return (
     <div>
       <Navbar color="light" light>
-        <NavbarBrand href="/" className="mr-auto">Q U I N C Y  H I C K S</NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+        {/* <NavbarBrand href="/" className="mr-auto">Q U I N C Y  H I C K S</NavbarBrand> */}
+        <h3>Quincy Hicks</h3>
+        <p id="contact"> CONTACT</p>
+
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>

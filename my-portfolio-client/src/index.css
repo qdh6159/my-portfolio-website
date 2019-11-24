@@ -1,5 +1,8 @@
 /* import 'bootstrap/dist/css/bootstrap.min.css' */
-
+@font-face {
+  font-family: 'Didact Gothic';
+  src: local('Didact Gothic'), url(./fonts/Didact_Gothic/DidactGothic-Regular.ttf) format('truetype');
+}
 
 body {
   margin: 0;
@@ -25,6 +28,7 @@ code {
   opacity: .7;
   padding-top: 35px;
   margin-top: 15px;
+  position: relative;
 
 
 }
@@ -33,12 +37,75 @@ code {
   /* border: 1px solid black; */
 
   height: 96%;
-  width: 93%;
+  width: 96%;
   margin: auto;
   /* margin-top: 50px; */
   /* margin: 20px; */
-  padding: 30px;
-  position: relative;
+  /* padding: 30px; */
   background: blanchedalmond;
-  opacity: .15;
+  z-index: 10;
+  position: relative;
+  top: 0px; left: 0px;
+  display: flex;
+  background: #ffebcd3d;
+  overflow-y: scroll;
+}
+
+.myCards {
+   z-index: 1000;
+   height: 100%;
+   width: 100%;
+   border: 1px solid rgba(255, 255, 0, 0.185);
+   position: relative;
+
+}
+img{
+  height: 350px;
+  /* width: 200px;
+  margin: 10px; */
+  opacity: .9;
+}
+/* .card-img {
+} */
+
+h3{
+  font-family: 'Didact Gothic', sans-serif;
+  letter-spacing: 10px;
+  margin-bottom: 0px;
+    margin-right: 0px;
+  /* font-size: 40px; */
+  /* position: absolute; */
+  float: right;
+  /* text-align: center; */
+  /* top: 17px; left: 1100px; */
+
+  /* margin-right: 50%; */
+}
+
+h1{
+  margin-top: 100px;
+}
+
+
+
+#contact{
+  font-size: 12.5px;
+  letter-spacing: 2px;
+  top: 25px;
+  margin-top: 18px;
+  margin-right: 50px;  font-family: 'Didact Gothic', sans-serif;
+
+}
+ul{
+  list-style-type: none;
+  padding: 3%;
+}
+
+li{
+  margin-bottom: 23px;
+
+}
+
+button {
+  text-align: center;
 }
